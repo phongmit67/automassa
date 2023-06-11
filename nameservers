@@ -1,0 +1,5 @@
+sudo nano /etc/netplan/01-netcfg.yaml
+      nameservers:
+          addresses: [1.1.1.1, 8.8.8.8, 8.8.4.4]
+
+sudo netplan apply
